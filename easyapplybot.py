@@ -1,5 +1,4 @@
 from __future__ import annotations
-
 import csv
 import logging
 import os
@@ -8,7 +7,6 @@ import re
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
-
 import pandas as pd
 import pyautogui
 import yaml
@@ -711,3 +709,4 @@ if __name__ == '__main__':
                        experience_level=parameters.get('experience_level', [])
                        )
     bot.start_apply(positions, locations)
+
